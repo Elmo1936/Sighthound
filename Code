@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sighthound</title>
+</head>
+
+<body>
+    <h1>
+        Sighthound
+    </h1>
+    <h2>What is it?</h2>
+    <p>Sighthounds, also called gazehounds, are a type of dog, hounds that hunt primarily by sight and speed, rather
+        than by scent and endurance as scent hounds do.
+        If you want to know more, click <a href="https://en.wikipedia.org/wiki/Sighthound" target="_blank"> here!</a>
+    </p>
+
+    <h2>How does it look?</h2>
+    <p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Sighthound_head.jpg/440px-Sighthound_head.jpg"
+            alt="cute sighthound sitting on couch"> <br>
+        The dolichocephalic head proportions of a typical sighthound <br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhippetWhiteSaddled_wb.jpg/440px-WhippetWhiteSaddled_wb.jpg"
+            alt="A Whippet: characteristic long legs, deep chest, and narrow waist of a sighthound">
+        <br>
+        A Whippet: characteristic long legs, deep chest, and narrow waist of a sighthound
+        <br>
+    </p>
+    <h2>How many types are there?</h2>
+    <ul>
+        <li>Afghan Hound</li>
+        <li>Azawakh</li>
+        <li>Borzoi</li>
+        <li>Chippiparai</li>
+        <li>Chortai</li>
+    </ul>
+    <h2> Do you like Sighthounds?</h2>
+    <form>
+        <div><input type="radio" name="Choice" id="Yes" value="Yes">
+            <label for="Yes"> Yes &#9786;</label>
+        </div>
+        <div><input type="radio" name="Choice" id="No" value="No">
+            <label for="No"> No &#x2639;</label>
+        </div>
+        <div><input type="radio" name="Choice" id="Maybe" value="Maybe">
+            <label for="Maybe"> Maybe</label>
+        </div>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
